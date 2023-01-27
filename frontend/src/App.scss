@@ -1316,6 +1316,32 @@ button, .a-button {
 	margin-top: 40px;
 }
 
+@media screen and (max-width: 1000px) {
+	.contact-form {
+		width: 100%;
+	}
+
+	.contact-input {
+	}
+
+	.contact-wrapper {
+		flex-direction: column;
+		width: 100%;
+	}	
+
+	.contact-form textarea {
+		width: 300px;
+		font-size: 1rem;
+		padding: 10px;
+	}
+
+	.contact-button {
+		width: 80%;
+	}
+}
+
+// Mailing list
+
 .mail-list {
 	width: 100%;
 	background: var(--action);

@@ -52,22 +52,22 @@ const FAQ = () => {
 			</div>
       <div>
 				<h1 onClick={() => setThree(!Three)}>{vragen[2]}</h1>
-				<FaAngleDown className={`${Two && "active"} arrow`} />
+				<FaAngleDown className={`${Three && "active"} arrow`} />
 				<p className={`${Three && "active-p"}`}>{antwoorden[2]}</p>
 			</div>
       <div>
 				<h1 onClick={() => setFour(!Four)}>{vragen[3]}</h1>
-				<FaAngleDown className={`${Two && "active"} arrow`} />
+				<FaAngleDown className={`${Four && "active"} arrow`} />
 				<p className={`${Four && "active-p"}`}>{antwoorden[3]}</p>
 			</div>
       <div>
 				<h1 onClick={() => setFive(!Five)}>{vragen[4]}</h1>
-				<FaAngleDown className={`${Two && "active"} arrow`} />
+				<FaAngleDown className={`${Five && "active"} arrow`} />
 				<p className={`${Five && "active-p"}`}>{antwoorden[4]}</p>
 			</div>
       <div>
 				<h1 onClick={() => setSix(!Six)}>{vragen[5]}</h1>
-				<FaAngleDown className={`${Two && "active"} arrow`} />
+				<FaAngleDown className={`${Six && "active"} arrow`} />
 				<p className={`${Six && "active-p"}`}>{antwoorden[5]}</p>
 			</div>
     </div>
